@@ -8,7 +8,7 @@ function App() {
       <motion.div
       initial={{y:0}}
       animate={{y:"-100vh"}}
-      transition={{duration: 1.7, delay:3.5}}
+      transition={{duration: 0.8, delay:3.5, easeInOut}}
       className='absolute top-0 z-50 h-screen w-screen bg-black flex items-center justify-center'
       >
         <motion.div 
@@ -24,19 +24,19 @@ function App() {
         <motion.div 
         initial={{y:0}}
         animate={{y:"-100vh"}}
-        transition={{duration: 1.6, delay:3.9}}
+        transition={{duration: 0.8, delay:3.8, easeInOut}}
         className='z-30 w-screen h-screen absolute top-0 bg-[#111111]'>
         </motion.div>
         <motion.div 
         initial={{y:0}}
         animate={{y:"-100vh"}}
-        transition={{duration: 1.3, delay:4.4}}
+        transition={{duration: 0.8, delay:4, easeInOut}}
         className='z-20 w-screen h-screen absolute top-0 bg-[#1e1e1e]'>
         </motion.div>
         <motion.div 
         initial={{y:0}}
         animate={{y:"-100vh"}}
-        transition={{duration: 0.8, delay:4.8}}
+        transition={{duration: 0.8, delay:4.2,  easeIn}}
         className='z-10 w-screen h-screen absolute top-0 bg-[#3c3c3c]'>
         </motion.div>
       </div>
